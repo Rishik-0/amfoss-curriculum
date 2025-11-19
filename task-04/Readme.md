@@ -1,0 +1,1 @@
+This task was to was to design the wireframe of the MeloFi mobile application and the website. I used Figma to create the design. Here is the link to the design https://www.figma.com/design/Breulsv33RJyBZYAeBNKZL/MeloFI-design?t=k5J30gTCJzm8VV5t-1
