@@ -1,0 +1,44 @@
+.Playlistpage-logo-image{
+    height: 60px;
+}
+.Playlistpage-logo-name{
+    transform: translate(0,-20px);
+}
+.playlist-page-topbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+}
+.Playlistpage-content-container{
+    /* background-color: lightblue; */
+    position: absolute;
+    height: 72%;
+    width: 72vw;
+    left: 0px;
+    top: 15%;
+    margin-left: 7%;
+    border-radius: 10px;
+    padding: 5px;
+    overflow-x: auto;
+    scrollbar-width:none ;
+}
+
+.playlistpage-playlistoptions{
+    transform: translate(0,40px);
+    display: flex;
+    align-items: center;
+}
+.playlistoptions-icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    position: absolute;
+    right: 30px;
+}
+.playlist-songtiles-container{
+    transform: translate(0,100px);
+    
+}
+
+

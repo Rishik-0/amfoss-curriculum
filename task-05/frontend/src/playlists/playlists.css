@@ -1,0 +1,42 @@
+.Playlistspage-logo-image{
+    height: 60px;
+}
+.Playlistspage-logo-name{
+    transform: translate(0,-20px);
+}
+.playlists-page-topbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    
+}
+.Playlistspage-content-container{
+    
+    position: absolute;
+    height: 72%;
+    width: 72vw;
+    left: 0px;
+    top: 18%;
+    margin-left: 7%;
+    border-radius: 10px;
+    padding: 5px;
+    overflow-x: auto;
+    scrollbar-width:none ;
+    padding-right: 200pxz;
+   
+    
+}
+.playlistoptions-noofsongs{
+    white-space: nowrap;
+}
+
+
+
+.create-new-playlist-button{
+    position: absolute;
+    top: 15%;
+    right: 23vw;
+    z-index: -1;
+}
+

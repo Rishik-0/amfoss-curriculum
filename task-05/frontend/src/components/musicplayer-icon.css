@@ -1,0 +1,13 @@
+.Musicplayericon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+}
+.Musicplayersong-cover{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}

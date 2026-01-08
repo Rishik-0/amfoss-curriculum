@@ -1,0 +1,18 @@
+.music-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+.song-cover{
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+.music-card:hover{
+    background-color: #F7E8FF;
+    border: solid 0.5px #E4DBE8;
+}
+

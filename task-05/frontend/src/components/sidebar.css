@@ -1,0 +1,121 @@
+.sidebar-container{
+    position: fixed;
+    background-color: #E4DBE8;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 20vw;
+    min-width: 100px;
+    max-width: 250px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: solid;
+    border-width: 1px
+    
+}
+.sidebar-user-profile{
+position: absolute;
+transform: translate(0px,20%);
+height: 200px;
+}
+.sidebar-username{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+}
+.sidebar-userid{
+    text-align: center;
+}
+.sidebar-options{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    transform: translate(0,300px);
+    height: max-content;
+    width: max-content;
+   
+
+    
+} 
+.sidebar-homepage{
+    height: 5vh;
+    width: 19vw;
+    min-width: 80px;
+    max-width: 230px;
+    transform: translate(0,-100%);
+    background-color: #F7E8FF;
+    border: solid ;
+    border-width: 2px;
+    border-radius: 100px;
+    
+}
+.sidebar-playlists{
+    height: 5vh;
+    width: 19vw;
+    min-width: 80px;
+    max-width: 230px;
+    transform: translate(0,0%);
+    background-color: #F7E8FF;
+    border: solid ;
+    border-width: 2px;
+    border-radius: 100px;
+    
+}
+
+
+.sidebar-button-desc{
+    font-weight: bold;
+}
+.sidebar-homepage:hover{
+    box-shadow: 0 2px 2px 0 grey;
+}
+.sidebar-playlists:hover{
+    box-shadow: 0 2px 2px 0 grey;
+}
+ 
+
+@media all and (max-width:480px){
+    .sidebar-homepage{
+        font-size: x-small;
+    }
+    .sidebar-playlists{
+        font-size: x-small;
+    }
+}
+.mobile-sidebar-disp{
+    display: none;
+}
+.mini-menu-icon{
+    display: none;
+}
+
+@media (max-width:570px){
+    .sidebar-container{
+        display: none;
+    }
+    .mini-menu-icon{
+        display: block;
+        position: absolute;
+        right: 0px;
+        margin: 2rem;
+        background-color: #F7E8FF;
+        border: solid 2px black;
+        border-radius: 100%;
+        padding-left: 5px;
+        padding-top: 4px;
+        z-index: 1000;
+    }
+    .mobile-sidebar-disp{
+        display: block;
+    }
+}
+
+
+
+
+/* @media (max-width:380px){
+    
+} */
