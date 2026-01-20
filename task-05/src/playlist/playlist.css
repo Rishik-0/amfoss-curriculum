@@ -40,5 +40,9 @@
     transform: translate(0,100px);
     
 }
-
+@media all and (max-width:569px){
+     .Playlistpage-content-container{
+        width: 90vw;
+     }
+}
 
