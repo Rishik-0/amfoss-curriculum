@@ -1,0 +1,89 @@
+.music-player{
+    height: 100vh;
+    width: 100vw;
+    background: #F7E8FF;
+}
+.MusicPlayer-logo-image{
+    height: 80px;
+}
+.MusicPlayer-melofilogo-container{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+}
+.MusicPlayer-logo-name{
+    transform: translate(10px,-20px);
+}
+.MusicPlayerpage-songicon{
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,0);
+    top: 20%;
+}
+.musicplayer-allcontrols{
+    position: absolute;
+    transform: translate(21%,0);
+    width: fit-content;
+    bottom: 20%;
+}
+.Musicplayer-playbackcontrols{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+.musicplayer-otheroptions{
+    display: flex;
+    width: fit-content;
+    justify-content: end;
+    gap: 2vw;
+    position: absolute;
+    right: 0px;
+    transform: translate(0,-30px);
+    z-index: 10;
+}
+.musicplayer-progress-bar{
+    width: 70vw;
+    transform: translate(0,75px);
+}
+.Playlistpage-card-outercontainer{
+    display: flex;
+    align-items: center;
+}
+.lyrics-page-button{
+    position: absolute;
+    bottom: 4%;
+    right: 50%;
+    transform: translate(50%,0);
+    height: 40px;
+    width: 130px;
+    font-size: large;
+    background-color: #F7E8FF;
+    border-radius: 16pc;
+    font-family: monospace;
+    cursor: pointer;
+    box-shadow:  8px 8px 8px 2px  #E4DBE8  ;
+    border: none;
+    
+
+}
+.close-player-button{
+    position: absolute;
+    right: 10%;
+    transform: translate(-50%,0);
+    top: 2rem;
+    cursor: pointer;
+    box-shadow:  5px 4px 5px 2px  #E4DBE8  ;
+    border: none;
+    border-radius: 100%;
+}
+.MusicPlayer-pause-button{
+    z-index: 10;
+}
+.musicplayer-add-button {
+    position: relative;
+     z-index: 100;
+}
+.addPlaylistDropdown {
+    position: absolute;
+    z-index: 1000;}

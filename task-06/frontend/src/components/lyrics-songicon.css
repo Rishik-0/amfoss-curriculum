@@ -1,0 +1,25 @@
+.lyricspage-songtile-container{
+    position: absolute;
+    bottom: 23%;
+    left: 13%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 72vw;
+    padding-bottom: 100px;
+    gap: 20px;
+     
+    
+}
+.lyricssongtile-cover{
+    border-radius: 0px;
+    height: 80px;
+    
+}
+.lyricssongtile-threedots{
+    padding: 20px;
+}
+/* .lyricssongtile-songinfo{
+    padding-left: 75px;
+} */

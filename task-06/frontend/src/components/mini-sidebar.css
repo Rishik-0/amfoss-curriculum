@@ -1,0 +1,69 @@
+.minisidebar-container{
+    position: fixed;
+    background-color: #E4DBE8;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 50vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: solid;
+    border-width: 1px
+}
+.minisidebar-user-profile{
+    position: absolute;
+    transform: translate(0px,20%);
+    height: 200px;
+}
+.minisidebar-username{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+}
+.minisidebar-userid{
+    text-align: center;
+}
+.minisidebar-options{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    transform: translate(0,300px);
+    height: max-content;
+    width: max-content;
+   
+
+    
+} 
+
+.minisidebar-homepage{
+    height: 5vh;
+    width: 45vw;
+    transform: translate(0,-100%);
+    background-color: #F7E8FF;
+    border: solid ;
+    border-width: 2px;
+    border-radius: 100px;
+    
+}
+.minisidebar-playlists{
+    height: 5vh;
+    width: 45vw;
+    transform: translate(0,0%);
+    background-color: #F7E8FF;
+    border: solid ;
+    border-width: 2px;
+    border-radius: 100px;
+    
+}
+.minisidebar-button-desc{
+    font-weight: bold;
+}
+.minisidebar-homepage:hover{
+    box-shadow: 0 2px 2px 0 grey;
+}
+.minisidebar-playlists:hover{
+    box-shadow: 0 2px 2px 0 grey;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FFEFDF;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.signinlogo-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: auto;
+    width: auto
+    
+}
+
+.signinLogo-image{
+    
+    height: 15%;
+    width: 15%;
+    transform: translate(0,60%);
+
+}
+
+.signin-button{
+    background-color: #F7E8FF;
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    transform: translate(50%,280%);
+    
+}   
+
+
+
+.signinlogo-title{
+    position: relative;
+    transform: translate(1%,150%);
+}
+
+.signinforms{
+transform: translate(0,10%);
+
+}
+.signin-button:hover{
+    box-shadow: 0 2px 2px 0 grey;
+}
+
+
+
+
+    

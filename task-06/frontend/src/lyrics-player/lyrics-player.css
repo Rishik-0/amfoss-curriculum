@@ -1,0 +1,77 @@
+.lyrics-player{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F7E8FF;
+}
+.LyricsPlayer-logo-image{
+    height: 80px;
+}
+.LyricsPlayer-melofilogo-container{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+}
+.LyricsPlayer-logo-name{
+    transform: translate(10px,-20px);
+}
+.lyricsplayer-allcontrols{
+    position: absolute;
+    transform: translate(21%,0);
+    width: fit-content;
+    bottom: 20%;
+}
+.lyricsplayer-playbackcontrols{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+.lyricsplayer-otheroptions{
+    display: flex;
+    justify-content: end;
+    gap: 2vw;
+    transform: translate(0,-30px);
+    width: fit-content;
+    position: absolute;
+    right: 0px;
+}
+.lyricsplayer-progress-bar{
+    width: 70vw;
+    transform: translate(0,75px);
+}
+.lyrics-display-section{
+    position: absolute;
+    height: 40vh;
+    width: 50vw;
+    border-width: 2px;
+    border: 1px solid black;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.musicplayer-return-button{
+    position: absolute;
+    bottom: 4%;
+    right: 50%;
+    transform: translate(50%,0);
+    height: 40px;
+    width: 130px;
+    font-size: large;
+    background-color: #F7E8FF;
+    border-radius: 16pc;
+    font-family: monospace;
+    cursor: pointer;
+    box-shadow:  8px 8px 8px 2px  #E4DBE8  ;
+    border: none;
+}
+.close-lyricsplayer-button{
+    position: absolute;
+    right: 10%;
+    transform: translate(-50%,0);
+    top: 2rem;
+    cursor: pointer;
+    box-shadow:  5px 4px 5px 2px  #E4DBE8  ;
+    border: none;
+    border-radius: 100%;
+}

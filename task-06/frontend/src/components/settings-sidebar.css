@@ -1,0 +1,36 @@
+.settings-sidebar-button{
+    height: 5vh;
+    width: 19vw;
+    min-width: 80px;
+    max-width: 230px;
+    transform: translate(0,700%);
+    background-color: #F7E8FF;
+    border: solid ;
+    border-width: 2px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+.logout-button-sidebar{
+    height: 5vh;
+    width: 19vw;
+    min-width: 80px;
+    max-width: 230px;
+    transform: translate(0,450%);
+    background-color: rgb(238, 131, 131);
+    border: solid ;
+    border-width: 2px;
+    border-radius: 100px;
+    font-weight: bold;
+    box-shadow: 0 5px 5px 0 grey;
+}
+.settings-sidebar-button:hover{
+    box-shadow: 0 2px 2px 0 grey;
+}
+@media all and (max-width:480px){
+    .settings-sidebar-button{
+        font-size: x-small;
+    }
+    .logout-button-sidebar{
+        font-size: x-small;
+    }
+}

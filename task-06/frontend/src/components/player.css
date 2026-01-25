@@ -1,0 +1,124 @@
+.player-container{
+    background-color: #F7E8FF;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 1px solid ;
+    display: flex;
+    align-items: center;
+    }
+
+
+.player-song-details{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 30%;
+}
+.player-songdetails-musicplayer{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 100vw;
+}
+.player-song-cover{
+    background-color: aliceblue;
+    height: 7vh;
+    width: 70px;
+    /* position: relative; */
+    margin: 10px;
+    border: 1px solid;
+    
+}
+.player-song-info{
+
+    transform: translate(0,0.5vh);
+    margin: 10px;
+}
+
+.player-song-name{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    transform: translate(0,);
+}
+.player-artist-name{
+    color: rgb(68, 67, 67);
+    transform: translate(0,-1vh);
+}
+.player-like-button{
+    position: absolute;
+    transform: translate(230px,0px);
+}
+.player-playback-controls{
+   position: absolute;
+   right: 50%;
+   display: flex;
+   justify-content: space-between;
+   transform: translate(0,-1vh);
+   
+}
+.player-next-button{
+    
+    margin:10%;
+    
+}
+.player-pause-button{
+    margin: 10%;
+}
+.player-back-button{
+    margin: 10%;
+}
+.player-progress-bar{
+    width: 25%;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,100%);
+}
+.player-option-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    right:5%
+    
+}
+.player-shuffle-button{
+    margin: 17px;
+}
+.player-add-button{
+    margin: 17px;
+    position: relative;
+}
+.addPlaylistDropdown{
+    position: absolute;
+}
+.player-share-button{
+    margin: 17px;
+}
+.player-other-button{
+    margin: 17px;
+}
+@media all and (max-width:650px){
+    .player-container{
+        .player-option-buttons{
+            display: none;;
+        }
+        .player-progress-bar{
+            display: none;
+        }
+        .player-playback-controls{
+            right: 20%;
+            transform: translate(0,0vh);
+        }
+    }
+}
+@media all and (max-width:400px){
+    .player-container{
+        .player-like-button{
+            display: none;
+        }
+    }
+}

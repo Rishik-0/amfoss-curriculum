@@ -1,0 +1,27 @@
+.song-suggestions-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    height: fit-content;
+}
+.song-suggestions-cover{
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.song-suggestions-card:hover{
+    background-color: #F7E8FF;
+    border: solid 0.5px #E4DBE8;
+}
+.song-suggestions-title{
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+.song-suggestions-artist{
+    text-align: center;
+}

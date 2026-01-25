@@ -1,0 +1,28 @@
+.Playlistpage-songtile-container{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 72vw;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+     
+    
+}
+.playlistsongtile-cover{
+    border-radius: 0px;
+    height: 80px;
+    
+}
+.Playlistsongtile-threedots{
+    position: absolute;
+    right: 20px;
+}
+.playlistsongtile-songinfo{
+    padding-left: 75px;
+}
+.Playlistpage-songtile-container:hover{
+    background-color: #F7E8FF;
+    border: solid 0.5px #E4DBE8;
+}

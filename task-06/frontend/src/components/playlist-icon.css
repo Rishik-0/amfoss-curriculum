@@ -1,0 +1,10 @@
+.playlisticon-cover{
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+}
+.playlisticon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

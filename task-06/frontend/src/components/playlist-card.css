@@ -1,0 +1,19 @@
+.playlist-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 130px;
+}
+.playlist-cover{
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 10px;
+}
+.playlist-card:hover{
+    background-color: #F7E8FF;
+    border: solid 0.5px #E4DBE8;
+}
+

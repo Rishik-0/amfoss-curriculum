@@ -1,0 +1,19 @@
+.artists-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 1000px;
+    width: 150px;
+}
+.artists-cover{
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    border-radius: 100%;
+}
+.artists-card:hover{
+    background-color: #F7E8FF;
+    border: solid 0.5px #E4DBE8;
+}
+
